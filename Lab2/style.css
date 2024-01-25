@@ -1,0 +1,51 @@
+#slider {
+    width: 600px;
+    height: 400px;
+    margin: 100px auto 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider .slides {
+    display: flex;
+    transition: transform 3s ease;
+}
+
+#left, #right {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+
+    top: 80%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#right {
+    right: 0;
+}
+#left{
+    left: 0;
+}
+
+#dots {
+    text-align: center;
+}
+
+.dot {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    cursor: pointer;
+    color: azure;
+}
+
+.slide > * {
+    width: 600px;
+    text-align: center;
+}
