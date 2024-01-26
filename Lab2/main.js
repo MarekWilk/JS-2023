@@ -3,7 +3,6 @@
 const main = document.querySelector('main')
 const slides = document.querySelector('.slides')
 const dot = document.querySelector('#dot1')
-dot.style.backgroundColor = "black"
 
 let licznik = 0
 let position = 0;
