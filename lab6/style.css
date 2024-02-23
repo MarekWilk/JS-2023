@@ -1,0 +1,59 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Adjusted to a light gray for grayscale theme */
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3; /* Adjusted to a gray for grayscale theme */
+}
+
+.game-container {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border: 5px solid #808080; /* Adjusted to gray for grayscale theme */
+    background-color: #a9a9a9; /* Adjusted to a dark gray for grayscale theme */
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: red; /* Ball color changed to red */
+    border-radius: 50%;
+}
+
+#hole {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: white; /* Hole color changed to white */
+    border-radius: 50%;
+}
+
+.game-controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: #696969; /* Adjusted to gray for grayscale theme */
+    color: white; /* Text color for buttons */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #808080; /* Adjusted to a darker gray for hover effect */
+}
